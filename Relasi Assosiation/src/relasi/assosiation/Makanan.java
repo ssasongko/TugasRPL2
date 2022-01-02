@@ -6,6 +6,7 @@ package relasi.assosiation;
 public class Makanan {
     private String namaMakanan;
     
+    // ciri relasi association
     private Provinsi provinsi;
     
     public Makanan(String namaMakanan){
@@ -19,5 +20,13 @@ public class Makanan {
 
     public void setNamaMakanan(String namaMakanan) {
         this.namaMakanan = namaMakanan;
+    }
+
+    public Provinsi getProvinsi() {
+        return provinsi;
+    }
+
+    public void setProvinsi(Provinsi provinsi) {
+        this.provinsi = provinsi;
     }
 }
